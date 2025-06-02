@@ -74,7 +74,7 @@ if (supercell == "hexagonal")
         % loading the lengths of the backing cavities
         Li  = load("./data/Li_opt_hexagonal_mirror.txt");
         % loading the FEM data calculated in COMSOL
-        comsol = load("data\Alfa_comsol_opt_hexagonal_mirror.txt");
+        comsol = load("./data/Alfa_comsol_opt_hexagonal_mirror.txt");
         % title of generated figure
         plottitle = "Fig 8b: Absorption coefficient, hexagonal elements, mirror symmetry";
     end % end symmetry mirror
@@ -83,7 +83,7 @@ if (supercell == "hexagonal")
         phi = 0.112;
         tp  = 5.00e-4; 
         Li  = load("./data/Li_opt_hexagonal_periodic.txt");
-        comsol = load("data\Alfa_comsol_opt_hexagonal_periodic.txt");
+        comsol = load("./data/Alfa_comsol_opt_hexagonal_periodic.txt");
         plottitle = "Fig 8a: Absorption coefficient, hexagonal elements, periodic symmetry";        
     end % end symmetry mirror
 end % end hexagonal elements
@@ -94,7 +94,7 @@ if (supercell == "triangular")
         phi = 0.115;
         tp  = 5.00e-4; 
         Li  = load("./data/Li_opt_triangular_mirror.txt");
-        comsol = load("data\Alfa_comsol_opt_triangular_mirror.txt");
+        comsol = load("./data/Alfa_comsol_opt_triangular_mirror.txt");
         plottitle = "Fig. 11b: Absorption coefficient, triamgular elements, mirror symmetry";
     end % end symmetry mirror
     if (symmetry == "periodic")
@@ -102,7 +102,7 @@ if (supercell == "triangular")
         phi = 0.118;
         tp  = 5.00e-4; 
         Li  = load("./data/Li_opt_triangular_periodic.txt");
-        comsol = load("data\Alfa_comsol_opt_triangular_periodic.txt");
+        comsol = load("./data/Alfa_comsol_opt_triangular_periodic.txt");
         plottitle = "Fig. 11a: Absorption coefficient, triangular elements, periodic symmetry";        
     end % end symmetry mirror
 end % end triangilar elements

@@ -27,7 +27,7 @@ if ( cell_layout == "annular_sectors" )
     % lengths of the backing cavities
     Li  = load("./data/Li_opt_annular_sectors.txt");
     % results of the FEM simulation in COMSOL
-    comsol = load("data\Alfa_comsol_opt_annular_sectors.txt");
+    comsol = load("./data/Alfa_comsol_opt_annular_sectors.txt");
     % title of the generated figure
     plottitle = "Fig. 14a: Absorption coefficient, annular sectors";
 end
@@ -36,7 +36,7 @@ if ( cell_layout == "squares" )
     phi = 0.0873;
     tp  = 5.00e-4; 
     Li  = load("./data/Li_opt_squares.txt");
-    comsol = load("data\Alfa_comsol_opt_squares.txt");
+    comsol = load("./data/Alfa_comsol_opt_squares.txt");
     plottitle = "Fig. 15a: Absorption coefficient, squares";
 end
 
