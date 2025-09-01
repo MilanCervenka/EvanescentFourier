@@ -29,7 +29,7 @@ if ( cell_layout == "annular_sectors" )
     % results of the FEM simulation in COMSOL
     comsol = load("./data/Alfa_comsol_opt_annular_sectors.txt");
     % title of the generated figure
-    plottitle = "Fig. 14a: Absorption coefficient, annular sectors";
+    plottitle = "Fig. 15a: Absorption coefficient, annular sectors";
 end
 if ( cell_layout == "squares" )
     dh  = 2.00e-04;
@@ -37,7 +37,7 @@ if ( cell_layout == "squares" )
     tp  = 5.00e-4; 
     Li  = load("./data/Li_opt_squares.txt");
     comsol = load("./data/Alfa_comsol_opt_squares.txt");
-    plottitle = "Fig. 15a: Absorption coefficient, squares";
+    plottitle = "Fig. 16a: Absorption coefficient, squares";
 end
 
 

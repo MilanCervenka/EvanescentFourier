@@ -14,8 +14,8 @@ Nn = 8;
 
 whattocalc = "Fig8a";      % hexagonal elements, periodic symmetry
 % whattocalc = "Fig8b";    % hexagonal elements, mirror symmetry
-% whattocalc = "Fig11a";   % triangular elements, periodic symmetry
-% whattocalc = "Fig11b";   % triangular elements, mirror symmetry
+% whattocalc = "Fig12a";   % triangular elements, periodic symmetry
+% whattocalc = "Fig12b";   % triangular elements, mirror symmetry
 
 if ( whattocalc == "Fig8a" )
     supercell = "hexagonal";
@@ -25,11 +25,11 @@ if ( whattocalc == "Fig8b" )
     supercell = "hexagonal";
     symmetry  = "mirror";
 end
-if ( whattocalc == "Fig11a" )
+if ( whattocalc == "Fig12a" )
     supercell = "triangular";
     symmetry  = "periodic";
 end
-if ( whattocalc == "Fig11b" )
+if ( whattocalc == "Fig12b" )
     supercell = "triangular";
     symmetry  = "mirror";
 end
@@ -95,7 +95,7 @@ if (supercell == "triangular")
         tp  = 5.00e-4; 
         Li  = load("./data/Li_opt_triangular_mirror.txt");
         comsol = load("./data/Alfa_comsol_opt_triangular_mirror.txt");
-        plottitle = "Fig. 11b: Absorption coefficient, triamgular elements, mirror symmetry";
+        plottitle = "Fig. 12b: Absorption coefficient, triamgular elements, mirror symmetry";
     end % end symmetry mirror
     if (symmetry == "periodic")
         dh  = 2.01e-04;
@@ -103,7 +103,7 @@ if (supercell == "triangular")
         tp  = 5.00e-4; 
         Li  = load("./data/Li_opt_triangular_periodic.txt");
         comsol = load("./data/Alfa_comsol_opt_triangular_periodic.txt");
-        plottitle = "Fig. 11a: Absorption coefficient, triangular elements, periodic symmetry";        
+        plottitle = "Fig. 12a: Absorption coefficient, triangular elements, periodic symmetry";        
     end % end symmetry mirror
 end % end triangilar elements
 
