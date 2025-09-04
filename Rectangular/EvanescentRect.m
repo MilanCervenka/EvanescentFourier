@@ -8,11 +8,16 @@ load_spectra = false;
 % elements can be plotted during the calculation
 plotgen = true;
 
+% if you have Soignal Processing Toolbox you can use routine dct()
+% to calculate the Discrete Cosine Transform. Otherwise, slightly less
+% efficient routine dctfft() is used
+havesigproctoolbox = true;
+
 % the number of evanescent modes accounted for
 Nm = 8;
 Nn = 8;
 
-whattocalc = "Fig8a";      % hexagonal elements, periodic symmetry
+1whattocalc = "Fig8a";      % hexagonal elements, periodic symmetry
 % whattocalc = "Fig8b";    % hexagonal elements, mirror symmetry
 % whattocalc = "Fig12a";   % triangular elements, periodic symmetry
 % whattocalc = "Fig12b";   % triangular elements, mirror symmetry
