@@ -17,7 +17,7 @@ havesigproctoolbox = true;
 Nm = 8;
 Nn = 8;
 
-1whattocalc = "Fig8a";      % hexagonal elements, periodic symmetry
+whattocalc = "Fig8a";      % hexagonal elements, periodic symmetry
 % whattocalc = "Fig8b";    % hexagonal elements, mirror symmetry
 % whattocalc = "Fig12a";   % triangular elements, periodic symmetry
 % whattocalc = "Fig12b";   % triangular elements, mirror symmetry
