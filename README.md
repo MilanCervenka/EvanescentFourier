@@ -1,6 +1,6 @@
 # MATLAB codes for article "Efficient Fourier-acoustic modeling of evanescent wave effects in metasurface absorbers with arbitrarily shaped elements"
 
-[Link to the article in Applied Mathematical Modelling](https://www.sciencedirect.com/science/article/pii/S0307904X25005451?via%3Dihub)
+[Link to the article in Applied Mathematical Modelling](https://doi.org/10.1016/j.apm.2025.116471)
 
 These MATLAB codes can be used to calculate the absorbing properties of a planar metasurface absorber composed of detuned resonators arranged in a rectangular or circular (super-)cell. 
 
